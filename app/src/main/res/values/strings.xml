@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="output_fullname">Output fullname</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="number_one_text">Number one</string>
+    <string name="number_two_text">Number two</string>
+    <string name="sum">Sum</string>
+    <string name="btn_switch">Switch</string>
+    <string name="open_result_list">Open result list</string>
+    <string name="highlight_text_in_red">Highlight text in red</string>
+    <string name="save_changes">Save changes</string>
+    <string name="clear_settings">Clear settings</string>
+    <string name="email" translatable="false">E-mail</string>
+</resources>

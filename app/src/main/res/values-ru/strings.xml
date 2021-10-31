@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="output_fullname">Вывести полное имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="number_one_text">Номер один</string>
+    <string name="number_two_text">Номер два</string>
+    <string name="sum">Сумма</string>
+    <string name="btn_switch">Переключть</string>
+    <string name="open_result_list">Открыть список рузультатов</string>
+    <string name="highlight_text_in_red">Подстветить текст красным</string>
+    <string name="save_changes">Сохранить изменения</string>
+    <string name="clear_settings">Очистить настройки</string>
+</resources>

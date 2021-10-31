@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewSum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/materialButtonSum"
+        app:layout_constraintStart_toStartOf="@+id/materialButtonSum"
+        app:layout_constraintTop_toBottomOf="@+id/materialButtonSum" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButtonSum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/sum"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberTwo"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberTwo"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberTwo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextNumberOne"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextNumberOneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/number_one_text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextNumberTwo"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberOne"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberOne"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberOne">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextNumberTwoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/number_two_text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
